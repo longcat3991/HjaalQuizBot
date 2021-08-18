@@ -63,6 +63,6 @@ Akzeptiert werden ganzzahlige Preise sowie mit Komma oder Punkt als Trennzeichen
 
 Hat der Nutzer bereis einen Preis eingereicht, wird dieser überschrieben.
 
-> !endeinkaufsliste
+* `!endeinkaufsliste`
 
 Mod-Only. Beendet die Runde "Einkaufsliste" und gibt den Durchschnittlichen Preis aller genannten Antworten des Chats aus.
