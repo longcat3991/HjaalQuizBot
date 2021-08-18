@@ -10,7 +10,7 @@ Wenn ja, wird er dem Anwender antworten.
 
 ## Gefragt:
 
-> !startgefragt [AnzahlAntworten](Optional)
+> !startgefragt [AnzahlAntworten] (Optional)
 
 Startet eine neue Runde "Gefragt" im Chat. 
 
