@@ -3,6 +3,7 @@
 ## Eigenständige Befehle
 
 > !botcheck
+
 Um zu prüfen, ob der Bot aktiv ist.
 Wenn ja, wird er dem Anwender antworten.
 
