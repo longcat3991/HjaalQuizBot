@@ -1,5 +1,10 @@
 # HjaalQuizBot
 
+##### Inhaltsverzeichnis
+[Eigenständige Befehle](#Eigenständige Befehle)
+[Gefragt](#Gefragt)
+[Einkaufsliste](#Einkaufsliste)
+
 ## Eigenständige Befehle
 
 > !botcheck
@@ -8,11 +13,19 @@ Um zu prüfen, ob der Bot aktiv ist.
 
 Wenn ja, wird er dem Anwender antworten.
 
+> !teilnehmer
+
+Gibt eine Liste der Quizshow-Teilnehmer aus.
+
+> !setteilnehmer [Teilnehmer]
+
+Mod-Only. Passt den !teilnehmer Command an. Teilnehmer werden mit Komma getrennt erwartet.
+
 ## Gefragt:
 
 > !startgefragt [AnzahlAntworten] (Optional)
 
-Startet eine neue Runde "Gefragt" im Chat. 
+Mod-Only. Startet eine neue Runde "Gefragt" im Chat. 
 
 Standardmäßig wird die Runde für 3 Antworten pro Person gestartet, alternativ kann die Anzahl der Antworten mit angegeben werden.
 
@@ -30,13 +43,13 @@ Zeigt dem Anwender eine Liste seiner eingereichten Antworten an.
 
 > !endgefragt
 
-Beendet die Runde "Gefragt" und gibt die meistgenannten Antworten des Chats aus.
+Mod-Only. Beendet die Runde "Gefragt" und gibt die meistgenannten Antworten des Chats aus.
 
 ## Einkaufsliste:
 
 > !starteinkaufsliste
 
-Startet eine neue Runde "Einkaufsliste" im Chat.
+Mod-Only. Startet eine neue Runde "Einkaufsliste" im Chat.
 
 > !preis [Preis]
 
@@ -48,4 +61,4 @@ Hat der Nutzer bereis einen Preis eingereicht, wird dieser überschrieben.
 
 > !endeinkaufsliste
 
-Beendet die Runde "Einkaufsliste" und gibt den Durchschnittlichen Preis aller genannten Antworten des Chats aus.
+Mod-Only. Beendet die Runde "Einkaufsliste" und gibt den Durchschnittlichen Preis aller genannten Antworten des Chats aus.
