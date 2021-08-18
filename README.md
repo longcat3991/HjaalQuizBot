@@ -26,7 +26,7 @@ Hat der Nutzer bereits die maximale Anzahl an Antworten eingereicht und reicht e
 
 > !gefragtcheck
 
-Zeigt dem Anwender eine Liste seiner eingreichten Antworten an.
+Zeigt dem Anwender eine Liste seiner eingereichten Antworten an.
 
 > !endgefragt
 
