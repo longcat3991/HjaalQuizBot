@@ -23,6 +23,8 @@ Gibt eine Liste der Quizshow-Teilnehmer aus.
 
 Mod-Only. Passt den !teilnehmer Command an. Teilnehmer werden mit Komma getrennt erwartet.
 
+Um den Command zu leeren, einfach !setteilnehmer ohne weiteren Text abschicken.
+
 ## Gefragt:
 
 > !startgefragt [AnzahlAntworten] (Optional)
