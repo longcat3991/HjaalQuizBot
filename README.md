@@ -1,8 +1,10 @@
 # HjaalQuizBot
 
 ##### Inhaltsverzeichnis
-[Eigenständige Befehle](#Eigenständige Befehle)
+[Eigenständige Befehle](#Eigenständige)
+
 [Gefragt](#Gefragt)
+
 [Einkaufsliste](#Einkaufsliste)
 
 ## Eigenständige Befehle
