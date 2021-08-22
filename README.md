@@ -7,7 +7,7 @@
 
 [Einkaufsliste](#Einkaufsliste)
 
-[Sonstige Spiele](#Sonstige)
+[Sonstige Spiele](#Sonstige-Spiele)
 
 ## Eigenständige Befehle
 
