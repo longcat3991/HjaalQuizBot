@@ -1,11 +1,13 @@
 # HjaalQuizBot
 
-####Inhaltsverzeichnis
+#### Inhaltsverzeichnis
 [Eigenständige Befehle](#Eigenständige)
 
 [Gefragt](#Gefragt)
 
 [Einkaufsliste](#Einkaufsliste)
+
+[Andere Spiele](#Andere)
 
 ## Eigenständige Befehle
 
