@@ -1,6 +1,6 @@
 # HjaalQuizBot
 
-#### Inhaltsverzeichnis
+### Inhaltsverzeichnis
 [Eigenständige Befehle](#Eigenständige-befehle)
 
 [Gefragt](#Gefragt)
