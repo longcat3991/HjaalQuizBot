@@ -7,7 +7,7 @@
 
 [Einkaufsliste](#Einkaufsliste)
 
-[Andere Spiele](#Weitere)
+[Sonstige Spiele](#Sonstige)
 
 ## Eigenständige Befehle
 
@@ -22,6 +22,8 @@ Wenn ja, wird er dem Anwender antworten.
 * `!teilnehmer`
 
 Gibt eine Liste der Quizshow-Teilnehmer aus.
+
+
 
 #### Für Mods
 
@@ -47,6 +49,8 @@ Hat der Nutzer bereits die maximale Anzahl an Antworten eingereicht und reicht e
 
 Zeigt dem Anwender eine Liste seiner eingereichten Antworten an.
 
+
+
 #### Für Mods:
 
 * `!startgefragt [AnzahlAntworten] (Optional)`
@@ -71,6 +75,8 @@ Akzeptiert werden ganzzahlige Preise sowie mit Komma oder Punkt als Trennzeichen
 
 Hat der Nutzer bereits einen Preis eingereicht, wird dieser überschrieben.
 
+
+
 #### Für Mods:
 
 * `!starteinkaufsliste`
@@ -81,7 +87,7 @@ Mod-Only. Startet eine neue Runde "Einkaufsliste" im Chat.
 
 Mod-Only. Beendet die Runde "Einkaufsliste" und gibt den Durchschnittlichen Preis aller genannten Antworten des Chats aus.
 
-## Weitere Spiele:
+## Sonstige Spiele:
 
 #### Für Zuschauer:
 
