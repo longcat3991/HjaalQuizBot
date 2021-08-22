@@ -61,7 +61,7 @@ Mit diesem Befehl können Nutzer ihren geschätzten Gesamtpreis einreichen.
 
 Akzeptiert werden ganzzahlige Preise sowie mit Komma oder Punkt als Trennzeichen.
 
-Hat der Nutzer bereis einen Preis eingereicht, wird dieser überschrieben.
+Hat der Nutzer bereits einen Preis eingereicht, wird dieser überschrieben.
 
 * `!endeinkaufsliste`
 
