@@ -13,23 +13,23 @@
 
 #### Für Zuschauer
 
-  * `!botcheck`
+* `!botcheck`
 
-* Um zu prüfen, ob der Bot aktiv ist.
+  * Um zu prüfen, ob der Bot aktiv ist.
 
-+ Wenn ja, wird er dem Anwender antworten.
+  * Wenn ja, wird er dem Anwender antworten.
 
-  * `!teilnehmer`
+* `!teilnehmer`
 
-* Gibt eine Liste der Quizshow-Teilnehmer aus.
+  * Gibt eine Liste der Quizshow-Teilnehmer aus.
 
 #### Für Mods
 
-  * `!setteilnehmer [Teilnehmer]`
+* `!setteilnehmer [Teilnehmer]`
 
-* Mod-Only. Passt den !teilnehmer Command an. Teilnehmer werden mit Komma getrennt erwartet.
+  * Mod-Only. Passt den !teilnehmer Command an. Teilnehmer werden mit Komma getrennt erwartet.
 
-* Um den Command zu leeren, einfach !setteilnehmer ohne weiteren Text abschicken.
+  * Um den Command zu leeren, einfach !setteilnehmer ohne weiteren Text abschicken.
 
 ## Gefragt:
 
