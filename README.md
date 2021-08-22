@@ -1,6 +1,6 @@
 # HjaalQuizBot
 
-##### Inhaltsverzeichnis
+####Inhaltsverzeichnis
 [Eigenständige Befehle](#Eigenständige)
 
 [Gefragt](#Gefragt)
@@ -8,6 +8,8 @@
 [Einkaufsliste](#Einkaufsliste)
 
 ## Eigenständige Befehle
+
+#### Für Zuschauer
 
 * `!botcheck`
 
@@ -19,6 +21,8 @@ Wenn ja, wird er dem Anwender antworten.
 
 Gibt eine Liste der Quizshow-Teilnehmer aus.
 
+#### Für Mods
+
 * `!setteilnehmer [Teilnehmer]`
 
 Mod-Only. Passt den !teilnehmer Command an. Teilnehmer werden mit Komma getrennt erwartet.
@@ -27,15 +31,11 @@ Um den Command zu leeren, einfach !setteilnehmer ohne weiteren Text abschicken.
 
 ## Gefragt:
 
-* `!startgefragt [AnzahlAntworten] (Optional)`
-
-Mod-Only. Startet eine neue Runde "Gefragt" im Chat. 
-
-Standardmäßig wird die Runde für 3 Antworten pro Person gestartet, alternativ kann die Anzahl der Antworten mit angegeben werden.
+#### Für Zuschauer:
 
 * `!gefragt [Antwort(en)]`
 
-Mit diesem Befehl können Nutzer ihre Antworten einreichen.
+Wenn eine Runde "Gefragt" offen ist, kann man mit diesem Befehl seine Antworten einreichen.
 
 Antworten können entweder einzeln oder mit Komma getrennt als Liste eingereicht werden.
 
@@ -45,24 +45,50 @@ Hat der Nutzer bereits die maximale Anzahl an Antworten eingereicht und reicht e
 
 Zeigt dem Anwender eine Liste seiner eingereichten Antworten an.
 
+#### Für Mods:
+
+* `!startgefragt [AnzahlAntworten] (Optional)`
+
+Mod-Only. Startet eine neue Runde "Gefragt" im Chat. 
+
+Standardmäßig wird die Runde für 3 Antworten pro Person gestartet, alternativ kann die Anzahl der Antworten mit angegeben werden.
+
 * `!endgefragt`
 
 Mod-Only. Beendet die Runde "Gefragt" und gibt die meistgenannten Antworten des Chats aus.
 
 ## Einkaufsliste:
 
-* `!starteinkaufsliste`
-
-Mod-Only. Startet eine neue Runde "Einkaufsliste" im Chat.
+#### Für Zuschauer:
 
 * `!preis [Preis]`
 
-Mit diesem Befehl können Nutzer ihren geschätzten Gesamtpreis einreichen.
+Wenn eine Runde "Einkaufsliste" offen ist, kann man mit diesem Befehl seinen geschätzten Gesamtpreis einreichen.
 
 Akzeptiert werden ganzzahlige Preise sowie mit Komma oder Punkt als Trennzeichen.
 
 Hat der Nutzer bereits einen Preis eingereicht, wird dieser überschrieben.
 
+#### Für Mods:
+
+* `!starteinkaufsliste`
+
+Mod-Only. Startet eine neue Runde "Einkaufsliste" im Chat.
+
 * `!endeinkaufsliste`
 
 Mod-Only. Beendet die Runde "Einkaufsliste" und gibt den Durchschnittlichen Preis aller genannten Antworten des Chats aus.
+
+# Andere Spiele:
+
+#### Für Zuschauer:
+
+Bisher werden die anderen Spiele per Chat-Umfrage gespielt. Ihr müsst hier also keinen Befehl benutzen, sondern einfach in der Umfrage auf die richtige Antwort klicken.
+
+#### Für Mods:
+
+* `!pollresult [Nachricht]`
+
+Mod-Only. Sendet eine Nachricht in Hjaal's "Antworten"-Discord-Channel.
+
+Hiermit könnt ihr also die Umfrageergebnisse oder andere nützliche Informationen in den Channel schicken.
