@@ -81,7 +81,7 @@ Mod-Only. Startet eine neue Runde "Einkaufsliste" im Chat.
 
 Mod-Only. Beendet die Runde "Einkaufsliste" und gibt den Durchschnittlichen Preis aller genannten Antworten des Chats aus.
 
-# Andere Spiele:
+## Andere Spiele:
 
 #### Für Zuschauer:
 
